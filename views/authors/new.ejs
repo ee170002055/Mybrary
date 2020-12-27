@@ -1,0 +1,7 @@
+<h2>New Author</h2>
+<form action="/authors" method="POST">
+    <!-- created a partial file so as to include it here rather than creating a single input field here -->
+    <%- include('_form_fields') %> 
+    <a href="/authors">Cancel</a>
+    <button type="submit">Create</button>
+</form>

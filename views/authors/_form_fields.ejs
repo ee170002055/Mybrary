@@ -1,0 +1,6 @@
+<!-- just a partial file created so that form inputs are shared between both our new file and edit file -->
+<!-- reason to use _ is so that we know that its a partial file and not an actual file that is being rendered from the server -->
+<label>Name</label>
+<!-- from autthors.js we took res.render('authors/new', {author: new Author() }) we put in here -->
+<!-- whatever you get after = execute that function and output it to the page -->
+<input type="text" name="name" value="<%= author.name %>">

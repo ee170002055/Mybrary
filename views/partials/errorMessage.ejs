@@ -1,0 +1,8 @@
+<!-- this is not going to render on the client but just on the server -->
+<% if(locals.errorMessage != null) {%> 
+
+    <!-- This is our actual error message that we want to render on the client -->
+    <%= errorMessage %>
+<% } %> 
+
+<!-- no sign after % means it will run only on server, - sign means a normal element, = sign means a function -->
